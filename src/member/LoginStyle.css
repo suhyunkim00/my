@@ -1,0 +1,56 @@
+@media (min-width: 500px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header > img {
+        width: 350px;
+        height: fit-content;
+    }
+
+    #login {
+        font-size: 45px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 230px;
+    }
+
+    #login > label,
+    #login > input,
+    #login > div {
+        margin-top: 30px;
+    }
+
+    #login > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #login > div > input:first-child {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .blank {
+        border-color: lightgray;
+        height: 90px;
+    }
+
+    button {
+        background-color: lemonchiffon;
+        border: none;
+        font-size: 40px;
+        border-radius: 30px;
+        height: 150px;
+    }
+
+    a {
+        font-size:30px;
+        color: black;
+
+        align-items: center;
+    }
+}
